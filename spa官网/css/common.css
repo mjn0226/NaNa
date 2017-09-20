@@ -1,0 +1,32 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+img {
+    border: none 0;
+}
+
+a {
+    text-decoration: none;
+    cursor: pointer;
+}
+a:hover{
+    text-decoration: none;
+}
+
+ul li {
+    list-style: none;
+}
+
+html,body {
+    background: #fff;
+    font-size:100%;
+    font-family: 'Open Sans', sans-serif !important;
+}
+.header_wrap{
+    min-height: 300px!important;
+}
+.header_info{
+    display: none;
+}

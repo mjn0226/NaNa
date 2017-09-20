@@ -1,0 +1,239 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.bolg>.container>.row>h3{
+    color: #72927b;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 34px;
+}
+.bolg>.container>.row>h4{
+    color: #c3c3c3;
+    font-size: 24px;
+    margin-top: 38px;
+    font-family: 'Josefin Sans', sans-serif;
+    text-transform: capitalize;
+}
+.bolg .container .row p{
+    color: #a8a9a1;
+    font-size: 18px;
+}
+.bolg .container .row>div{
+    margin-top: 50px;
+}
+.bolg .container .row div ul{
+    width: 100%;
+}
+.bolg .container .row div ul li{
+    width: 25%;
+    float: left;
+    text-align: inherit;
+}
+.bolg .container .row div ul li a{
+    color: #cccbc6;
+}
+/*.more{*/
+    /*width: 145px;*/
+    /*height: 40px;*/
+    /*background: #6ea145;*/
+    /*margin: 60px 0 0;*/
+   /*text-align: center;*/
+    /*line-height: 40px;*/
+/*}*/
+.more a{
+    width: 145px;
+    height: 40px;
+    background: #6ea145;
+    margin: 60px 0 0!important;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+.more a:hover{
+    background: #cccbc6;
+    color: #6ea145;
+}
+.bolg>.container>.row>.col-lg-5>p{
+    color: #72927b;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 34px;
+    margin-top: 24px;
+}
+.bolg .container .row .col-lg-5 input:nth-child(1){
+    margin-top: 28px; ;
+}
+.bolg .container .row .col-lg-5 input{
+    font-size: 10px;
+    color: #cacaca;
+}
+.bolg .container .row .col-lg-5 .row .col-lg-9 ul li{
+    width: 100%;
+    white-space: pre;
+}
+.bolg>.container>.row>.col-lg-5>.row{
+    margin-top: -42px;
+}
+.bolg .container .row .row .more{
+    text-align: center;
+    margin-top: -25px;
+    margin-left: -105px;
+}
+.bolg .container .row .row .more a{
+    width: 80%;
+    height:100%;
+}
+.recent{
+    padding-left: 10px;
+    color: #72927b;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 34px;
+    margin-bottom: 38px;
+}
+.bolg .container .row .right_text h3{
+    margin-top: -44px;
+    text-transform: capitalize;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size:16px;
+    color:#cacaca ;
+}
+.bolg .container .row .right_text h4{
+    margin-top: 0px;
+    font-size: 16px;
+    color:#72927b ;
+}
+.bolg .container .row .right_text p{
+    margin-top: 0px;
+    font-size: 16px;
+    color:#cacaca  ;
+}
+.bolg .container .row .right_text .more a{
+    margin-top: 20px;
+    text-align: center;
+    width: 40%;
+    height: 40%;
+    border-radius: 5px;
+    margin-left: -56px;
+    background: #2b7abc;
+    color: #fff;
+}
+.bolg .container .row .right_text .more a:hover{
+    color:#2b7abc ;
+    background: #cacaca;
+}
+.bolg .container .row .col-lg-5 .second{
+    margin-top: 15px;
+}
+.img_right img{
+    margin-top:107px;
+}
+.recent_img .row:nth-child(1){
+    color: #72927b;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 34px;
+}
+.img_right>h3{
+    font-size: 16px!important;
+    color: #595856!important;
+    margin-top:123px!important;
+}
+.img_right>h4{
+    color: #72927b;
+    font-size: 28px;
+    font-family: 'Josefin Sans', sans-serif;
+}
+.Lorem{
+    margin-top: 22px!important;
+}
+.error{
+    margin-top: -200px!important;
+}
+
+.media-body>div{
+    font-size: 12px;
+    color: #bbb8bf;
+}
+.write{
+    color: #72927b;
+    font-size: 30px;
+    font-family: 'Josefin Sans', sans-serif;
+}
+.media-body div{
+    margin-top: 0px;
+}
+.media-body h4{
+    margin-top: 26px;
+}
+.media-body span{
+    color: #cecece;
+}
+.h3{
+    color: #72927b;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 34px;
+}
+.h3 ul li{
+    padding: 14px;
+}
+.h3 ul li img{
+    border: 1px #cecece solid;
+    padding: 8px;
+}
+.h3 ul li p{
+    margin-top: 24px;
+}
+.responses .media-heading{
+    float: right;
+}
+.media-body div{
+    font-size: 15px;
+}
+.media-heading span{
+    color: #72927b;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 20px;
+}
+.media p{
+    color: #72927b;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 20px;
+    margin-top: 20px;
+}
+.form h3{
+    color: #72927b;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 34px;
+}
+.form input{
+    margin-top: 15px;
+    padding-left: 5px;
+    font-size: 10px;
+    width: 70%;
+    height: 46px;
+    border: 1px #cecece solid;
+}
+.form input .active{
+    border-bottom: 2px #cecece solid;
+}
+.form>input:nth-child(5){
+    width: 100%;
+    height: 150px;
+}
+.submit a{
+    display: block;
+    background: #6ea145;
+    width: 100%;
+    height: 50px;
+    text-align: center;
+    line-height: 50px;
+    margin-top: 12px;
+    font-size: 12px;
+    color: #fff;
+}
+.submit a:hover{
+    background: #c6c5c0;
+    color: #6ea145;
+}
+.post{
+    color: #72927b;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 34px;
+}
