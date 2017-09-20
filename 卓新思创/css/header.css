@@ -1,0 +1,76 @@
+.header_wrap {
+    min-width: 1100px;
+    height: 120px;
+    background: #322246 url("../images/yinyue_bg.jpg") no-repeat top center;
+}
+
+.header {
+    width: 1100px;
+    height: 120px;
+    margin: 0 auto;
+}
+
+.logo {
+    height: 73px;
+    width: 344px;
+    background: url("../images/logo.png") no-repeat;
+    float: left;
+    margin-top: 10px;
+}
+
+.nav {
+    float: right;
+}
+
+.nav > li {
+    float: left;
+    padding: 0 20px 0 15px;
+    color: #fff;
+    font-size: 16px;
+    line-height: 45px;
+    text-align: center;
+    margin-top: 42px;
+    position: relative;
+    z-index: 999;
+    cursor: pointer;
+}
+
+.nav .now {
+    background: url("../images/nav_now_bg.png") no-repeat bottom center;
+}
+
+.nav img {
+    margin-left: 4px;
+    margin-bottom: -6px;
+}
+
+.arrow_down {
+    position: absolute;
+    left: -10px;
+    width: 180px;
+    color: #fff;
+    display: none;
+    background: #322246;
+    line-height: 30px;
+
+}
+
+.arrow_down li {
+    padding-left: 20px;
+    line-height: 35px;
+    font-size: 14px;
+    text-align: left;
+    font-family: STKaiti;
+    transition: padding-left 0.4s ease 0s;
+    /*浏览器兼容*/
+    -webkit-transition: padding-left 0.4s ease;
+    -moz-transition: padding-left 0.4s ease;
+    -o-transition: padding-left 0.4s ease;
+    -ms-transition: padding-left 0.4s ease;
+}
+
+.arrow_down li:hover {
+    cursor: pointer;
+    padding-left: 30px;
+    background: #3498db url("../images/nav_li_bg.png") no-repeat 165px 15px;
+}

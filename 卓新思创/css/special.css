@@ -1,0 +1,516 @@
+/*welcome_page*/
+.welcome_page {
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 999;
+    background: #299ad6;
+    width: 100%;
+}
+
+.welcome_page .school_img {
+    margin:0 auto;
+}
+
+.welcome_page strong {
+    font-weight: normal;
+}
+
+/*header*/
+.header_wrap {
+    width: 100%;
+    min-width: 1100px;
+    background: #004394 url("../images/header_bg.jpg") no-repeat top center;
+    background-size: 100%;
+}
+
+.header {
+    width: 1100px;
+    height: 50px;
+    margin: 0 auto;
+}
+
+.logo {
+    float: left;
+    color: #fff;
+    font-size: 24px;
+    margin-top: 6px;
+    margin-right: 18px;
+}
+
+.logo img {
+    vertical-align: middle;
+}
+
+.logo span {
+    margin-left: 3px;
+}
+
+.nav {
+    float: left;
+    width: 830px;
+    margin-top: 12px;
+}
+
+.nav li {
+    float: left;
+    color: #aeabb4;
+    font-size: 16px;
+    min-width: 32px;
+    font-family: STKaiti;
+    padding: 0 20px;
+    line-height: 25px;
+    height: 30px;
+    cursor: pointer;
+}
+
+.nav li.cur {
+    background: url("../images/nav_now_bg.png") no-repeat bottom center;
+    color: #fff;
+}
+.nav li:hover{
+    background: url("../images/nav_now_bg.png") no-repeat bottom center;
+    color: #fff;
+}
+
+/*wrap*/
+.wrap {
+    width: 100%;
+    min-width: 1100px;
+    overflow: hidden;
+}
+
+.public_wrap {
+    width: 100%;
+    min-width: 1100px;
+}
+
+/*school*/
+.school {
+    background: #221236;
+    overflow: hidden;
+}
+
+.school_img {
+    margin-top: 40px;
+    text-align: center;
+    margin-left: -56px;
+    margin-bottom: 20px;
+}
+
+.school_text {
+    font-family: STKaiti;
+    color: #fefefe;
+    text-align: center;
+    width: 550px;
+    margin: 0 auto;
+}
+
+.school_text p {
+    font-size: 44px;
+}
+
+.school_text span {
+    font-size: 16px;
+    font-family: ArialIMT;
+    color: #dfdee1;
+    letter-spacing: 4px;
+}
+
+.study_text {
+    font-size: 48px;
+    position: relative;
+    top: 10px;
+}
+
+.study_text img:first-child {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.study_text img:last-child {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}
+
+.describe {
+    font-size: 20px;
+    margin-bottom: 30px;
+    margin-top: 30px;
+}
+
+.school_btn {
+    width: 58px;
+    height: 58px;
+    margin: 0 auto;
+    background: url("../images/aboutxiaoniao/donext.png") no-repeat 0 -58px;
+}
+
+.school_btn:hover {
+    background-position-y: 0;
+}
+
+/*summary*/
+.summary {
+    background: #fff;
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+}
+
+.summary .banner > li {
+    width: 100%;
+    min-width: 1100px;
+    float: left;
+}
+
+.summary_top {
+    text-align: center;
+}
+
+.summary_top h1 {
+    color: #311759;
+    margin-top: 20px;
+    font-size: 54px;
+    margin-bottom: 10px;
+}
+
+.summary_text {
+    width: 640px;
+    font-size: 18px;
+    font-family: STKaiti;
+    text-align: left;
+    position: relative;
+    text-indent: 2rem;
+    margin: 0 auto;
+}
+
+.summary_text img:first-child {
+    position: absolute;
+    top: -6px;
+    left: -6px;
+}
+
+.summary_text img:last-child {
+    position: absolute;
+    right: -6px;
+    bottom: -6px;
+}
+
+.summary_bottom {
+    margin-left: 240px;
+    margin-top: 40px;
+}
+
+.summary_bottom li {
+    float: left;
+    margin-right: 45px;
+}
+
+.summary .prev {
+    background: url("../images/aboutxiaoniao/goleft.png") no-repeat;
+    display: block;
+    width: 58px;
+    height: 58px;
+    position: absolute;
+    top: 264px;
+    left: 30px;
+}
+
+.summary .prev:hover {
+    background-position-x: -58px;
+}
+
+.summary .next {
+    background: url("../images/aboutxiaoniao/goright.png") no-repeat -58px 0;
+    display: block;
+    width: 58px;
+    height: 58px;
+    position: absolute;
+    top: 264px;
+    right: 30px;
+}
+
+.summary .next:hover {
+    background-position-x: 0px;
+}
+
+/*business_value*/
+.business_value {
+    background: #221236;
+    overflow: hidden;
+    text-align: center;
+    color: #fff;
+    font-family: STKaiti;
+}
+
+.business_value h2 {
+    font-size: 48px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.main_content {
+    width: 900px;
+    font-size: 18px;
+    margin: 0 auto;
+    position: relative;
+}
+
+.main_content * {
+    float: left;
+}
+
+.main_content li {
+    width: 356px;
+    margin-top: 46px;
+    text-align: left;
+    float: left;
+}
+
+.main_content span {
+    display: block;
+    width: 74px;
+    height: 74px;
+    border: 1px dashed #fff;
+    border-radius: 50%;
+    font-family: ArialIMT;
+    line-height: 74px;
+    text-align: center;
+    margin-right: 27px;
+    margin-top: -14px;
+}
+
+.main_content li:nth-of-type(odd) {
+    margin-left: 50px;
+}
+
+.main_content li:nth-of-type(even) {
+    float: right;
+    margin-right: 50px;
+}
+
+@keyframes imgMove {
+    0% {
+        opacity: 1;
+    }
+    50% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+.angle img:first-child {
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 1;
+    z-index: 0;
+    animation: imgMove .5s infinite;
+}
+
+.angle img:nth-child(2) {
+    position: absolute;
+    top: 0;
+    right: 0;
+    opacity: 1;
+    z-index: 0;
+    animation: imgMove .5s infinite;
+}
+
+.angle img:nth-child(3) {
+    position: absolute;
+    top: 340px;
+    left: 0;
+    opacity: 1;
+    z-index: 0;
+    animation: imgMove .5s infinite;
+}
+
+.angle img:nth-child(4) {
+    position: absolute;
+    top: 340px;
+    right: 0;
+    opacity: 1;
+    z-index: 0;
+    animation: imgMove .5s infinite;
+}
+
+.angle img:nth-child(5) {
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 1;
+    z-index: 1;
+}
+
+.angle img:nth-child(6) {
+    position: absolute;
+    top: 0;
+    right: 0;
+    opacity: 1;
+    z-index: 1;
+}
+
+.angle img:nth-child(7) {
+    position: absolute;
+    top: 340px;
+    left: 0;
+    opacity: 1;
+    z-index: 1;
+}
+
+.angle img:last-child {
+    position: absolute;
+    top: 340px;
+    right: 0;
+    opacity: 1;
+    z-index: 1;
+}
+
+/*service*/
+.service {
+    text-align: center;
+    overflow: hidden;
+    position: relative;
+}
+
+.service_wrap div {
+    float: left;
+}
+
+.service p {
+    font-size: 48px;
+    color: #221236;
+    font-family: STKaiti;
+    margin-bottom: 10px;
+    margin-top: 20px;
+}
+
+.service_text {
+    text-align: left;
+    width: 899px;
+    margin: 0 auto;
+}
+
+.service_text li {
+    height: 34px;
+    line-height: 34px;
+    border-bottom: 1px dashed #a4a4a8;
+    color: #717074;
+    font-size: 16px;
+}
+
+.service_btn span {
+    display: block;
+    background: #acacac;
+    height: 8px;
+    width: 78px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.service_btn span i.cur {
+    width: 100%;
+}
+
+.service_btn span i {
+    display: block;
+    height: 8px;
+    width: 0px;
+    border-radius: 5px;
+    background: #006FD6;
+    float: right;
+}
+
+.service_btn span:first-child {
+    position: absolute;
+    top: 86%;
+    left: 43%;
+}
+
+.service_btn span:last-child {
+    position: absolute;
+    top: 86%;
+    right: 43%;
+}
+
+.service_btn span:last-child i {
+    float: left;
+}
+
+.scroll_btn {
+    position: absolute;
+    top: 90%;
+    left: 49%;
+    width: 30px;
+    height: 90px;
+    background: url("../images/aboutxiaoniao/xiaoniaoyun_scrollon.png") no-repeat;
+}
+
+/*app_load*/
+.app_load {
+    width: 100%;
+    background: url("../images/aboutxiaoniao/app&contacts_bg.gif") no-repeat top center;
+    background-size: 100% 100%;
+}
+
+.load {
+    width: 900px;
+    margin: 0 auto;
+    color: #ffffff;
+}
+
+.picture {
+    width: 345px;
+    height: 344px;
+    margin: 30px auto 0 auto;
+    text-align: center;
+    float: left;
+
+}
+
+.sweep {
+    display: block;
+    width: 345px;
+    height: 20px;
+    color: #ffffff;
+    font-size: 16px;
+    text-align: center;
+}
+
+.picture img {
+    margin-top: -24px;
+
+}
+
+.load p {
+    float: left;
+    font-size: 48px;
+    margin-left: 110px;
+    margin-top: 140px;
+}
+
+.girl {
+    margin-left: 116px;
+    float: right;
+    width: 443px;
+    color: #191919;
+}
+
+.girl b {
+    font-size: 24px;
+    margin-bottom: 19px;
+}
+
+.girl i {
+    width: 500px;
+    display: block;
+    font-size: 18px;
+    font-style: normal;
+    line-height: 30px;
+}

@@ -1,0 +1,90 @@
+.footer_wrap {
+    width: 100%;
+    min-width: 1100px;
+    height: 350px;
+    background: #322246 url("../images/yinyue_bg.jpg") repeat-y top center;
+}
+
+.footer {
+    text-align: center;
+    color: #fff;
+    font-size: 17px;
+    width: 1100px;
+    margin: 0 auto;
+    font-family: STKaiti;
+}
+
+.music {
+    padding-top: 80px;
+    padding-left: 280px;
+}
+
+.music li {
+    width: 57px;
+    height: 57px;
+    float: left;
+    margin-right: 27px;
+    cursor: pointer;
+    background: url("../images/yinyue_duo.png") no-repeat 0 0;
+}
+
+.music li:nth-child(2) {
+    background: url("../images/yinyue_lai.png") no-repeat 0 0;
+}
+
+.music li:nth-child(3) {
+    background: url("../images/yinyue_mi.png") no-repeat 0 0;
+}
+
+.music li:nth-child(4) {
+    background: url("../images/yinyue_fa.png") no-repeat 0 0;
+}
+
+.music li:nth-child(5) {
+    background: url("../images/yinyue_suo.png") no-repeat 0 0;
+}
+
+.music li:nth-child(6) {
+    background: url("../images/yinyue_la.png") no-repeat 0 0;
+}
+
+.music li:last-child {
+    background: url("../images/yinyue_xi.png") no-repeat 0 0;
+}
+
+.music li:first-child:hover {
+    background: url("../images/yinyue_duo.png") no-repeat 0 -57px;
+}
+
+.music li:nth-child(2):hover {
+    background: url("../images/yinyue_lai.png") no-repeat 0 -57px;
+}
+
+.music li:nth-child(3):hover {
+    background: url("../images/yinyue_mi.png") no-repeat 0 -57px;
+}
+
+.music li:nth-child(4):hover {
+    background: url("../images/yinyue_fa.png") no-repeat 0 -57px;
+}
+
+.music li:nth-child(5):hover {
+    background: url("../images/yinyue_suo.png") no-repeat 0 -57px;
+}
+
+.music li:nth-child(6):hover {
+    background: url("../images/yinyue_la.png") no-repeat 0 -57px;
+}
+
+.music li:last-child:hover {
+    background: url("../images/yinyue_xi.png") no-repeat 0 -57px;
+}
+
+.footer_bottom {
+    overflow: hidden;
+    width: 1100px;
+    margin: 200px auto 24px auto;
+    height: 2px;
+    background: url("../images/next&prev_line.png") repeat-x left bottom;
+}
+
