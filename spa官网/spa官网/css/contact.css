@@ -1,0 +1,39 @@
+.header_wrap {
+    min-height: 300px !important;
+}
+
+.header_info {
+    display: none;
+}
+.map_wrap{
+    height:417px;
+    margin:4em 0;
+}
+.contact_main h3{
+    color: #72927b;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 34px;
+}
+.contact_main  p{
+    color: #a8a9a1;
+    font-size: 18px;
+}
+.contact_main .form_content  input[type='text']{
+    width: 236px;
+    height: 38px;
+}
+.contact_main .form_content>div{
+    width: 32%;
+    margin: .5em 1% .5em 0;
+    padding:0;
+}
+.contact_main   input[type='button']{
+    width: 154px;
+    height: 40px;
+    background-color: #6ea145;
+    color: #fff;
+    font-family: 'Josefin Sans', sans-serif;
+    border:none;
+    line-height: 40px;
+    margin:.5em 0;
+}

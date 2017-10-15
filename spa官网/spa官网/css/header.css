@@ -1,3 +1,4 @@
+/*container会在一定的屏幕大小中自己将内容块居中，出现一个margin-left和margin-right且值相同*/
 .header_wrap {
     background: url("../images/banner.jpg") no-repeat 0 0;
     background-size: cover;
@@ -21,6 +22,7 @@
     display: block;
 }
 
+/*可选的 em i 都是斜体*/
 .header_left a em {
     display: block;
     font-size: 0.5em;
@@ -84,9 +86,7 @@
     bottom: 0;
     right: 0;
     margin: auto;
-}
-.header_middle ul{
-    list-style: none;
+    /*设置居中*/
 }
 
 .header_middle .menu {
@@ -108,16 +108,17 @@
 
 .header_middle ul li a {
     font-size: 16px;
-    color: #fff;
     padding: 45px 30px;
-    display: block;
     font-family: 'Josefin Sans', sans-serif;
+    color: #fff;
+    display: block;
     position: relative;
     z-index: 1;
 }
 
 .header_middle ul li.active a {
     background: #6ea145;
+    text-decoration: none;
 }
 
 .header_middle ul li a i {
@@ -125,36 +126,39 @@
     display: block;
     text-align: center;
     margin-top: 8px;
+
 }
 
 .nav_item {
     position: relative;
-    -moz-osx-font-smoothing: grayscale
+    -moz-osx-font-smoothing: grayscale;
 }
 
 .nav_item:before {
-    width: 100%;
-    height: 100%;
+    /*width: 100%;*/
+    /*height: 100%;*/
     content: "";
     position: absolute;
     z-index: 0;
     top: 0;
     left: 0;
+    right: 0;
+    bottom: 0;
     background: #6ea145;
-    -webkit-transform: scaleY(0);
     transform: scaleY(0);
-    -webkit-transform-origin: 0 50%;
-    transform-origin: 0 50%;
-    transition: transform 0.3s ease-out;
+    transform-origin: 50% 0;
+    -webkit-transform: scaleY(0);
+    -webkit-transform-origin: 50% 0;
+    transition: transform .3s ease-out;
 }
 
-/*.nav_item:hover, .nav_item:focus, .nav_item:active {*/
-    /*color: white;*/
-/*}*/
+.nav_item:hover, .nav_item:focus, .nav_item:active {
+    color: #fff;
+}
 
 .nav_item:hover:before, .nav_item:focus:before, .nav_item:active:before {
-    -webkit-transform: scaleY(1);
     transform: scaleY(1);
+    -webkit-transform: scaleY(1);
 }
 
 .header_info {
@@ -191,6 +195,7 @@
 .more a:hover {
     color: #6ea145;
     background: #fff;
+    text-decoration: none;
 }
 
 @media (max-width: 1280px) {
@@ -368,7 +373,10 @@
         min-height: 380px;
     }
 }
+
 @media (min-width: 993px) {
     /* 解决屏幕由小到大时无法显示导航的问题*/
-    ul.nav_list {display: block !important;}
+    ul.nav_list {
+        display: block !important;
+    }
 }
