@@ -1,0 +1,48 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+img {
+    border: none 0;
+}
+
+a {
+    text-decoration: none;
+    cursor: pointer;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+ul li {
+    list-style: none;
+}
+
+html, body {
+    background: #fff;
+    font-size: 100%;
+    font-family: "Segoe UI", "Lucida Grande", Helvetica, Arial, "Microsoft YaHei", FreeSans, Arimo, "Droid Sans", "wenquanyi micro hei", "Hiragino Sans GB",
+    "Hiragino Sans GB W3", Roboto, Arial, sans-serif !important;
+}
+
+/*footer*/
+.fade_up {
+    position: fixed;
+    width: 40px;
+    height: 40px;
+    bottom: 160px;
+    right: 40px;
+    background: #393939;
+    display: none;
+}
+
+.fade_up i {
+     position: absolute;
+     cursor: pointer;
+     color: #fff;
+     left:12px;
+     top:12px;
+}
+

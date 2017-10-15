@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <!--IE运行最新渲染模式-->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <!--初始化移动端浏览显示-->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>戀庭</title>
+    <!--Js引入-->
+    <script src="js/jquery-3.2.1.js"></script>
+    <script src="bootstrap/js/bootstrap.min.js"></script>
+    <script src="js/cooperation.js"></script>
+    <!--IE浏览器兼容-->
+    <!--[if lt IE 9]-->
+    <script src="https://cdn.bootcss.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+    <script src="https://cdn.bootcss.com/respond.js/1.4.2/respond.min.js"></script>
+    <!--[endif]-->
+    <!--Css引入-->
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/common.css">
+    <link rel="stylesheet" href="css/cooperation.css">
+</head>
+<body>
+<header></header>
+<div class="cooperation_wrap">
+    <div class="cooperation">
+        <div class="container cooperation_content">
+            <div class="row">
+                <img src="images/contact.jpg" class="img-responsive">
+            </div>
+            <div class="row cooperation_main">
+                <div class="col-lg-6 form_wrap">
+                    <div class="form_box">
+                        <form>
+                            <div class="form-group">
+                                <label for="contact_person"></label>
+                                <input type="text" class="form-control" id="contact_person" placeholder="联系人:">
+                                <small>不能为空</small>
+                            </div>
+                            <div class="form-group">
+                                <label for="type"></label>
+                                <input type="text" class="form-control" id="type" placeholder="个人/网店/企业?">
+                                <small>不能为空</small>
+                            </div>
+                            <div class="form-group">
+                                <label for="name"></label>
+                                <input type="text" class="form-control" id="name" placeholder="网店/企业名称:">
+                                <small>不能为空</small>
+                            </div>
+                            <div class="form-group">
+                                <label for="Email"></label>
+                                <input type="email" class="form-control" id="Email" placeholder="邮箱:">
+                                <small>不能为空</small>
+                            </div>
+                            <div class="form-group">
+                                <label for="phone"></label>
+                                <input type="number" class="form-control" id="phone" placeholder="手机:">
+                                <small>不能为空</small>
+                            </div>
+                            <div class="form-group">
+                                <label for="chat"></label>
+                                <input type="text" class="form-control" id="chat" placeholder="QQ/微信:">
+                                <small>不能为空</small>
+                            </div>
+                            <div class="form-group">
+                                <label for="cooperation"></label>
+                                <input type="text" class="form-control" id="cooperation" placeholder="合作意向?">
+                                <small>不能为空</small>
+                            </div>
+                            <div class="form-group">
+                                <label for="other"></label>
+                                <input type="text" class="form-control" id="other" placeholder="其他备注">
+                                <small>不能为空</small>
+                            </div>
+                            <div class="form-group code_second">
+                                <label for="code_search"></label>
+                                <input type="text" class="form-control" id="code_search" placeholder="验证码">
+                               <img src="images/ajax.png" class="img-responsive code_img">
+                                <small>不能为空</small>
+                            </div>
+                            <button type="submit" class="btn btn-default disabled">提交信息</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<footer></footer>
+</body>
+</html>

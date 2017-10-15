@@ -1,0 +1,47 @@
+.brand_wrap .brand_content {
+    width: 100%;
+    padding: 0;
+}
+
+.brand_wrap .brand_content .brand_introduce {
+    width: 1100px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+.brand_wrap .brand_content .brand_box{
+    width: 900px;
+    margin: 0 auto;
+    overflow: hidden;
+    padding-bottom: 50px;
+}
+.brand_wrap h2 {
+    color: #444;
+    font-size: 28px;
+    white-space: normal;
+    margin-top: 74px;
+}
+
+.brand_wrap span {
+    color: #222;
+    display: inline-block;
+    font-size: 14px;
+    margin-top: 16px;
+    font-weight: 300;
+}
+
+.brand_wrap p {
+    color: #222;
+    margin-top: 44px;
+    font-size: 14px;
+    line-height: 1.8em;
+}
+.brandImg{
+    margin-top: 74px;
+}
+.brand_box .brand_text{
+    padding:0 10%;
+    line-height: 50px;
+}
+.brand_box .brand_word{
+    margin-top: 20px;
+}

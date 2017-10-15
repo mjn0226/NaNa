@@ -1,0 +1,14 @@
+.footer_wrap .footer_content{
+    width: 100%;
+    background: #fff;
+}
+
+.footer p {
+    color: #222;
+    font-size: 12px;
+    line-height: 2.5em;
+}
+.footer_right  img{
+    float: left;
+    cursor: pointer;
+}

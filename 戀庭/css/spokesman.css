@@ -1,0 +1,33 @@
+.spokesman_wrap .spokesman_main {
+    width: 100%;
+    padding: 0;
+}
+
+.spokesman_wrap .spokesman_content {
+    width: 1100px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+.spokesman_wrap h2 {
+    color: #444;
+    font-size: 28px;
+    white-space: normal;
+    margin-top: 74px;
+}
+
+.spokesman_wrap span {
+    color: #222;
+    display:block;
+    font-size: 14px;
+    margin-top: 16px;
+    font-weight: 300;
+}
+
+.spokesman_wrap p {
+    color: #222;
+    font-size: 14px;
+    line-height: 1.8em;
+}
+.spokesman_content .col-lg-3>div:nth-child(2){
+    margin-top: 70px;
+}
