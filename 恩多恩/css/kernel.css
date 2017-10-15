@@ -1,0 +1,63 @@
+html,body{
+    background: #fff;
+}
+.kernel_top {
+    width: 100%;
+    height: 270px;
+    background: url("../images/kernel.jpg") no-repeat;
+    background-size: contain;
+    text-align: center;
+    overflow: hidden;
+}
+
+.kernel_wrap h1 {
+    color: #fff;
+    font-size: 40px;
+    font-weight: normal;
+    margin: 112px auto 0;
+}
+.kernel_tab{
+    width: 350px;
+    margin:0 auto;
+}
+.kernel_tab li{
+    float: left;
+    padding: 14px;
+    font-size: 16px;
+    color: #90939b;
+}
+.kernel_tab li:hover{
+    color: #464646;
+}
+.kernel_main{
+    overflow: hidden;
+    width: 100%;
+    border-top: 1px solid #f0f2f5;
+    border-bottom: 1px solid #f0f2f5;
+    padding: 30px 0;
+}
+.kernel_content{
+    width: 70%;
+    padding: 11px 22px;
+    margin:0 auto;
+    border-left: 4px solid #e4eaec;
+}
+.kernel_main h2{
+    color: #595959;
+    font-size: 18px;
+    margin-bottom: 16px;
+}
+.kernel_main p{
+    color:#262626;
+    font-size: 13px;
+    line-height: 1.2em;
+    font-family: 微软雅黑;
+    margin:11px 0;
+}
+.kernel_content li{
+    border-bottom: 1px solid #f0f2f5;
+    padding: 22px 0;
+}
+.kernel_content ul{
+    margin-bottom: 30px;
+}

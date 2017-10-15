@@ -1,0 +1,203 @@
+.activity_top {
+    width: 100%;
+    height: 270px;
+    background: url("../images/activity_bg.jpg") no-repeat;
+    background-size: contain;
+    text-align: center;
+    overflow: hidden;
+}
+
+.activity_wrap h1 {
+    color: #fff;
+    font-size: 40px;
+    font-weight: normal;
+    margin: 112px auto 0;
+}
+
+.activity_tab {
+    height: 52px;
+    background: #fff;
+    padding-left: 60px;
+}
+
+.activity_tab ul li {
+    float: left;
+    padding: 14px;
+    font-size: 16px;
+    color: #90939b;
+}
+
+.activity_tab ul {
+    float: left;
+}
+
+.search_input {
+    float: right;
+    margin-right: 60px;
+    margin-top: 9px;
+    position: relative;
+}
+
+.search_btn {
+    position: absolute;
+    top: 12px;
+    right: 20px;
+    width: 14px;
+    height: 14px;
+    background: url("../images/search.png") no-repeat;
+    background-size: 100% 100%;
+    border: none;
+
+}
+
+.search_input input {
+    height: 36px;
+    width: 260px;
+    border-radius: 40px;
+    border: 1px solid #ccc;
+    font-size: 14px;
+    color: #ccc;
+    text-indent: 2rem;
+    outline: none;
+}
+
+.search_input input.checked {
+    border-color: #464646;
+}
+
+.activity_main {
+    width: 100%;
+    padding-top: 30px;
+    overflow: hidden;
+}
+
+.activity_main dl {
+    float: left;
+    width: 306px;
+    background: #fff;
+    margin: 0 15px 30px;
+    position: relative;
+    transition: all 1s cubic-bezier(0.215, 0.61, 0.355, 1) 0s;
+    -moz-transition: all 1s cubic-bezier(0.215, 0.61, 0.355, 1) 0s;
+    -webkit-transition: all 1s cubic-bezier(0.215, 0.61, 0.355, 1) 0s;
+    -o-transition: all 1s cubic-bezier(0.215, 0.61, 0.355, 1) 0s;
+}
+.main_bottom{
+   clear: both;
+}
+.activity_main dt {
+    width: 100%;
+    position: relative;
+    cursor: pointer;
+    overflow: hidden;
+}
+
+.activity_main .mask {
+    display: inline-block;
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(60, 60, 60, .5);
+    transition: all 1s ease-out;
+    -moz-transition: all 1s ease-out;
+    -webkit-transition: all 1s ease-out;
+    -o-transition: all 1s ease-out;
+    z-index: 2;
+}
+
+.activity_main img {
+    width: 100%;
+    display: block;
+    transition: all 1s cubic-bezier(0.17, 0.84, 0.44, 1) 0s;
+    -moz-transition: all 1s cubic-bezier(0.17, 0.84, 0.44, 1) 0s;
+    -webkit-transition: all 1s cubic-bezier(0.17, 0.84, 0.44, 1) 0s;
+    -o-transition: all 1s cubic-bezier(0.17, 0.84, 0.44, 1) 0s;
+}
+.activity_main dd{
+    margin-left: 28px;
+    padding-bottom: 10px;
+}
+.activity_main h4 {
+    padding: 20px 20px 20px 0;
+}
+
+.activity_main h4:hover {
+    border-color: #3C3C3C;
+}
+
+.activity_main h4 a {
+    color: #666;
+    font-size: 16px;
+    font-weight: normal;
+}
+
+.activity_main p {
+    padding-top: 5px;
+    font-size: 13px;
+    color: #848484;
+}
+
+.activity_main i::after {
+    content: '+';
+    width: 50px;
+    height: 50px;
+    line-height: 50px;
+    margin: 50px auto 0 -26px;
+    display: inline-block;
+    position: absolute;
+    top: 0;
+    left: 50%;
+    border-radius: 50px;
+    border: 1px solid rgba(255, 255, 255, 0.5);
+    transition: all 1s cubic-bezier(0.17, 0.84, 0.44, 1) 0s;
+    -moz-transition: all 1s cubic-bezier(0.17, 0.84, 0.44, 1) 0s;
+    -webkit-transition: all 1s cubic-bezier(0.17, 0.84, 0.44, 1) 0s;
+    -o-transition: all 1s cubic-bezier(0.17, 0.84, 0.44, 1) 0s;
+    opacity: 0;
+    color: #fff;
+    font-size: 40px;
+    text-align: center;
+    font-family: "Times New Roman", "微软雅黑";
+}
+
+.activity_main dt:hover i::after {
+    top: 20px;
+    opacity: 1;
+}
+
+.activity_main dt:hover .mask {
+    opacity: 1;
+}
+
+.activity_main dt:hover img {
+    transform: scale(1.2);
+}
+
+.activity_main span {
+    display: block;
+    width: 88px;
+    height: 36px;
+    text-align: center;
+    margin-top: 30px;
+    line-height: 36px;
+    border: 1px solid #292929;
+    border-radius:   3px ;
+    transition: all 1s cubic-bezier(0.17, 0.84, 0.44, 1) 0s;
+    -moz-transition: all 1s cubic-bezier(0.17, 0.84, 0.44, 1) 0s;
+    -webkit-transition: all 1s cubic-bezier(0.17, 0.84, 0.44, 1) 0s;
+    -o-transition: all 1s cubic-bezier(0.17, 0.84, 0.44, 1) 0s;
+}
+
+.activity_main span a {
+    color: #292929;
+    font-size: 14px;
+}
+.activity_main span:hover{
+    background: #292929;
+}
+.activity_main span:hover a{
+    color: #fff;
+}
